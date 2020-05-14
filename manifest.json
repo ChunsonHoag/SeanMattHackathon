@@ -1,0 +1,13 @@
+{
+    "name": "Vaporwave",
+    "version": "1.0",
+    "description": "Make a webpage A E S T H E T I C",
+    "manifest_version": 2,
+    "content_scripts" : [
+      {
+        "matches" : ["https://www.google.com/"],
+        "js": ["./main.js"]
+      }
+    ]
+  
+}
