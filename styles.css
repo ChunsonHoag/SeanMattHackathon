@@ -5,8 +5,8 @@
     padding: 1rem;
     border-radius: .25rem;
     position: fixed;
-    left: 10rem;
-    top: 10rem;
+    left: 1rem;
+    top: 15rem;
     z-index: 999;
     -webkit-transition: all 422ms ease-in-out;
     
@@ -26,3 +26,21 @@
 .fade-in-out {
     -webkit-transition: background-color 422ms ease-in-out, 422ms;
 }
+
+/* .vapor-background {
+    background-color: #6cfec4;
+    
+} */
+/* @keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+.marbleGif {
+    width: 560px; 
+	height: 400px; 
+	background-image: url();
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 40s linear infinite;
+} */

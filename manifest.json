@@ -3,14 +3,15 @@
     "version": "1.0",
     "description": "Make a webpage A E S T H E T I C",
     "manifest_version": 2,
+    "web_accessible_resources": [
+      "./assets/HereComeDatBoi.mp3"
+    ],
     "content_scripts" : [
       {
         "matches" : ["http://*/*", "https://*/*"],
         "js": ["./main.js"],
-        "css": ["./styles.css"],
-        "web_accessible_resources": [
-          "./assets/HereComeDatBoi.mp3"
-      ]
+        "css": ["./styles.css"]
+        
         
       }
     ]
