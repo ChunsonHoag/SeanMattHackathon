@@ -5,8 +5,13 @@
     "manifest_version": 2,
     "content_scripts" : [
       {
-        "matches" : ["https://www.google.com/"],
-        "js": ["./main.js"]
+        "matches" : ["http://*/*", "https://*/*"],
+        "js": ["./main.js"],
+        "css": ["./styles.css"],
+        "web_accessible_resources": [
+          "./assets/HereComeDatBoi.mp3"
+      ]
+        
       }
     ]
   

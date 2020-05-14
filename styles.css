@@ -1,0 +1,28 @@
+.vaporwaveBtn {
+    color: black;
+    text-decoration: none;
+    background-color: powderblue;
+    padding: 1rem;
+    border-radius: .25rem;
+    position: fixed;
+    left: 10rem;
+    top: 10rem;
+    z-index: 999;
+    -webkit-transition: all 422ms ease-in-out;
+    
+    
+}
+
+.vaporwaveBtn:hover {
+    text-decoration: none;
+    background-color: pink;
+    -webkit-transition: all 422ms ease-in-out;
+}
+
+.vaporwaveBtn:active {
+    background-color: #F3FF8C;
+}
+
+.fade-in-out {
+    -webkit-transition: background-color 422ms ease-in-out, 422ms;
+}
